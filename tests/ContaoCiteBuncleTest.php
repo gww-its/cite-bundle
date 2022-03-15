@@ -10,9 +10,9 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\CiteBundle\Tests;
+namespace gww-its\CiteBundle\Tests;
 
-use Contao\CiteBundle\ContaoCiteBundle;
+use gww-its\CiteBundle\ContaoCiteBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoCiteBundleTest extends TestCase
@@ -21,6 +21,6 @@ class ContaoCiteBundleTest extends TestCase
     {
         $bundle = new ContaoCiteBundle();
 
-        $this->assertInstanceOf('Contao\CiteBundle\ContaoCiteBundle', $bundle);
+        $this->assertInstanceOf('gww-its\CiteBundle\ContaoCiteBundle', $bundle);
     }
 }
